@@ -19,6 +19,7 @@ int main()
             {  
                 flag = 1;
                 printf("YES\n");
+                printf("%d %d",a[i],a[j]);
                 
             }
         }
