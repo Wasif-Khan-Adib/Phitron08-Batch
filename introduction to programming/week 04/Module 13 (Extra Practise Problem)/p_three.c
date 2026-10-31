@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int star = 9;
+    int star = 5;
     int space = 0;
     for (int i = 1; i <= n; i++)
     {
@@ -16,7 +16,7 @@ int main()
             printf("*");
         }
         printf("\n");
-        star=star-2;
+        star--;
         space++;
     }
     return 0;
