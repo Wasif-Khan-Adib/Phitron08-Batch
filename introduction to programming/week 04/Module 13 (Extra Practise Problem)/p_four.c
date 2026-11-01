@@ -3,21 +3,19 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int star = 9;
-    int space = 0;
+
+    int alpha = 1;
+
     for (int i = 1; i <= n; i++)
     {
-        for (int k = 1; k <= space; k++)
+        for (int j = 1; j <= alpha; j++)
         {
-            printf(" ");
+            printf("%c ", 'A' + j - 1);
         }
-        for (int j = 1; j <= star; j++)
-        {
-            printf("*");
-        }
+
         printf("\n");
-        star = star -2;
-        space++;
+        alpha++;
     }
+
     return 0;
 }
